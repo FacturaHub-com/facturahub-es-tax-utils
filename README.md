@@ -1,4 +1,4 @@
-# @facturahub/es-tax-utils
+# facturahub-es-tax-utils
 
 **Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=es-tax-utils)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
 
@@ -7,7 +7,7 @@
 Reexporta, bajo espacios de nombres, las librerías individuales:
 
 ```ts
-import { nif, iva, iban, facturaNumber, verifactuHash, verifactuQr, modelo303 } from '@facturahub/es-tax-utils';
+import { nif, iva, iban, facturaNumber, verifactuHash, verifactuQr, modelo303 } from 'facturahub-es-tax-utils';
 
 nif.isValidNIF('A58818501');               // true
 iva.desgloseFactura({ base: 1000, ivaTipo: 21, irpfTipo: 15 });
@@ -19,7 +19,7 @@ modelo303.calcularModelo303({ ventas, compras });
 ## Instalación
 
 ```bash
-npm i @facturahub/es-tax-utils
+npm i facturahub-es-tax-utils
 ```
 
 Incluye: [`nif-validator`](https://github.com/FacturaHub-com/facturahub-nif-validator), [`iva`](https://github.com/FacturaHub-com/facturahub-iva), [`iban-es`](https://github.com/FacturaHub-com/facturahub-iban-es), [`factura-number`](https://github.com/FacturaHub-com/facturahub-factura-number), [`verifactu-hash`](https://github.com/FacturaHub-com/facturahub-verifactu-hash), [`verifactu-qr`](https://github.com/FacturaHub-com/facturahub-verifactu-qr), [`modelo-303`](https://github.com/FacturaHub-com/facturahub-modelo-303).

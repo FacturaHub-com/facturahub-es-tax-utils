@@ -1,5 +1,5 @@
 {
-  "name": "@facturahub/es-tax-utils",
+  "name": "facturahub-es-tax-utils",
   "version": "0.1.0",
   "description": "Todas las utilidades fiscales de España en un paquete: NIF/CIF, IVA, IRPF, IBAN, numeración de facturas, Verifactu (QR y huella) y Modelo 303.",
   "keywords": ["españa", "spain", "fiscal", "iva", "irpf", "nif", "cif", "iban", "verifactu", "modelo 303", "facturacion"],
@@ -19,13 +19,13 @@
   "homepage": "https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=es-tax-utils",
   "repository": { "type": "git", "url": "git+https://github.com/FacturaHub-com/facturahub-es-tax-utils.git" },
   "dependencies": {
-    "@facturahub/nif-validator": "^0.1.0",
-    "@facturahub/iva": "^0.1.0",
-    "@facturahub/iban-es": "^0.1.0",
-    "@facturahub/factura-number": "^0.1.0",
-    "@facturahub/verifactu-hash": "^0.1.0",
-    "@facturahub/verifactu-qr": "^0.1.0",
-    "@facturahub/modelo-303": "^0.1.0"
+    "facturahub-nif-validator": "^0.1.0",
+    "facturahub-iva": "^0.1.0",
+    "facturahub-iban-es": "^0.1.0",
+    "facturahub-factura-number": "^0.1.0",
+    "facturahub-verifactu-hash": "^0.1.0",
+    "facturahub-verifactu-qr": "^0.1.0",
+    "facturahub-modelo-303": "^0.1.0"
   },
   "devDependencies": { "tsup": "^8.0.0", "typescript": "^5.4.0" }
 }
