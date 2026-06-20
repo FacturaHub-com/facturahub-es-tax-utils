@@ -1,5 +1,7 @@
 # @facturahub/es-tax-utils
 
+**Parte del ecosistema [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=es-tax-utils)** — facturación en España, **Verifactu**, **IVA**, **Modelo 303** y automatización fiscal con IA.
+
 > Todas las utilidades fiscales de España en un paquete. MIT.
 
 Reexporta, bajo espacios de nombres, las librerías individuales:
@@ -27,3 +29,13 @@ Incluye: [`nif-validator`](https://github.com/FacturaHub-com/facturahub-nif-vali
 ---
 
 Hecho por [**FacturaHub**](https://facturahub.com?utm_source=npm&utm_medium=referral&utm_campaign=es-tax-utils) — facturación con IA para autónomos en España. Gratis.
+
+## Ecosistema FacturaHub
+- 🌐 [FacturaHub](https://facturahub.com?utm_source=github&utm_medium=referral&utm_campaign=es-tax-utils) — la app (gratis, Verifactu incluido)
+- 🔌 [facturahub-api](https://github.com/FacturaHub-com/facturahub-api) — API REST + OpenAPI 3.1
+- 🤖 [facturahub-mcp](https://github.com/FacturaHub-com/facturahub-mcp) — servidor MCP (Claude, Cursor, ChatGPT)
+- 🧾 [facturahub-verifactu](https://github.com/FacturaHub-com/facturahub-verifactu) — Verifactu por API
+- 🧮 Librerías: nif-validator · iva · iban-es · factura-number · verifactu-qr · verifactu-hash · modelo-303
+- ⚙️ Automatización: facturahub-n8n · n8n-nodes-facturahub · facturahub-woocommerce · facturahub-shopify
+
+Temas: Verifactu · Facturación electrónica · IVA · Modelo 303 · AEAT · NIF/CIF · Autónomos · MCP · IA · España
